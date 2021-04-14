@@ -9,7 +9,7 @@ var sgMail = require("@sendgrid/mail");
 const moment = require("moment");
 
 sgMail.setApiKey(
-  "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"
+  process.env.SENDGRID_KEY
 );
 /* GET home page. */
 
