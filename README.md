@@ -18,10 +18,17 @@ Antd
 
 
 ## UI Pages
+
+```
 Homepage/Houses
+
 Visitation
+
 Visitaion Form 
+
 Select Slot
+
+```
 
 ## To run Project locally
 
