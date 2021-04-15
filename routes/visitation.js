@@ -86,7 +86,7 @@ router.post("/add", async function (req, res, next) {
               <p><strong>Date: </strong> ${moment(slotBooked.visitDate).format(
                 "YYYY-MM-DD"
               )}</p>
-              <p>Please follow <a href="https://dashboard.seeshop.in/verify-email/">this link</a> to view booking details.</p>
+              <p>Please follow <a href="https://house-rental.vercel.app/visitation/${slotBooked._id}">this link</a> to view booking details.</p>
             </div>
             `,
       };
@@ -104,7 +104,7 @@ router.post("/add", async function (req, res, next) {
               <p><strong>Date: </strong> ${moment(slotBooked.visitDate).format(
                 "YYYY-MM-DD"
               )}</p>
-              <p>Please follow <a href="https://dashboard.seeshop.in/verify-email/">this link</a> to view booking details.</p>
+              <p>Please follow <a href="https://house-rental.vercel.app/visitation/${slotBooked._id}">this link</a> to view booking details.</p>
             </div>
             `,
       };
